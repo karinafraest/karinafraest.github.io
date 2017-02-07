@@ -1,6 +1,16 @@
+/*GENERAL*/
 * {
   margin:0px;
 }
+body{
+  font-size: 16px;
+}
+
+h1{
+  font-family: 'Sansita', sans-serif;
+}
+
+
 /* HEADER*/
 header{
     background-color:black;
@@ -10,10 +20,6 @@ header{
     background-position:right;
     height: 200px;
   }
-
-h1{
-  font-family: 'Sansita', sans-serif;
-}
 
 #top{
   color: white;
@@ -32,7 +38,7 @@ ul{
   margin: 20px 0px;
 
 }
-
+/*NAV*/
 nav ul li{
   display: inline;
   margin-left: 50px;
@@ -50,6 +56,9 @@ nav a:hover {
   text-decoration: none;
 }
 
+/*Nav query*/
+
+/*Main*/
 main{
   padding:0px 20px;
   font-family: 'Roboto', sans-serif;
