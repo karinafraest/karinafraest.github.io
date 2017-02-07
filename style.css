@@ -127,10 +127,13 @@ footer p{
 }
 /*---------------success.html----------*/
 /*table*/
-
+#success h1 {
+  margin-top: 20px;
+}
 #success a {
   text-decoration: none;
   color: gold;
+  font-weight: bold;
 }
 
 #success a:hover{
@@ -144,11 +147,17 @@ footer p{
 table{
   width: 400px;
   border-collapse: collapse;
+  margin: 20px 0px;
+}
+
+.even {
+  background-color: gold;
 }
 th, td {
   border: 1px solid gold;
+  padding: 5px;
 }
 
 th{
-
+  font-size: 1.25em;
 }
