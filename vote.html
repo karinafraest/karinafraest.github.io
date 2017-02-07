@@ -2,100 +2,111 @@
 <html>
 <head>
   <title>Vote here</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Sansita" rel="stylesheet">
+  <link href="style.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
-  <h1>Vote for your favourite movies</h1>
-  <form action="success.html">
-    <fieldset>
-      <legend>Vote here</legend>
-      <p> Best Feature Film</p>
-      <label>
-        <input type="radio" name="feature" value="arrival"/>Arrival
-      </label>
-      <br />
-      <label>
-        <input type="radio" name="feature" value="hacksaw"/>Hacksaw Ridge
-      </label>
-      <br />
-      <label>
-        <input type="radio" name="feature" value="hellor"/>Hell or Highwater
-      </label>
-      <br />
-      <label>
-        <input type="radio" name="feature" value="figures"/>Hidden Figures
-      </label>
-      <br />
-      <label>
-        <input type="radio" name="feature" value="lalaland"/>La la land
-      </label>
-      <br />
-      <label>
-        <input type="radio" name="feature" value="Lion"/>Lion
-      </label>
-      <br />
-      <label>
-        <input type="radio" name="feature" value="manchester"/>Manchester by the Sea
-      </label>
-      <br />
-      <label>
-        <input type="radio" name="feature" value="moonlight"/>Moonlight
-      </label>
-      <br />
-      <p> Best Animated Feature</p>
-      <label>
-        <input type="radio" name="feature" value="kubo"/>Kubo and the two strings
-      </label>
-      <br />
-      <label>
-        <input type="radio" name="feature" value="moana"/>Moana
-      </label>  
-      <br />
-      <label>
-        <input type="radio" name="feature" value="redturtle"/>The red turtle
-      </label>  
-      <br />
-      <label>
-        <input type="radio" name="feature" value="zootopia"/>Zootopia
-      </label>  
-      <br />
-      <label>
-        <input type="radio" name="feature" value="succhini"/>My life as a succhini
-      </label>
-      <br />
-      <p> Best Documentary Feature</p>
-      <label>
-        <input type="radio" name="feature" value="13th"/>13th
-      </label>
-      <br />
-      <label>
-        <input type="radio" name="feature" value="fireatsea"/>Fire at sea
-      </label>
-      <br />
-      <label>
-        <input type="radio" name="feature" value="iamnot"/>I am not your negro
-      </label>
-      <br />
-      <label>
-        <input type="radio" name="feature" value="animated"/>Life, Animated
-      </label>
-      <br />
-      <label>
-        <input type="radio" name="feature" value="madein"/>O.J. Made in America
-      </label>
-      <br />
-      <br />
-    </fieldset>
-    <fieldset>
-      <legend>Personal information</legend>
-      <p> Name: 
-      <input type="text" name="username" size="15">
-      </p>
-      <p> Email:
-      <input type="email" name="email" size="15">
-      </p>
+  <header>
+    <h1 id="top">Academy award nominees</h1> 
+  </header>
+  <main>
+    <h1>Vote for your favourite movies</h1>
+    <form action="success.html">
+      <fieldset>
+        <legend>Vote here</legend>
+        <p> Best Feature Film</p>
+        <label>
+          <input type="radio" name="feature" value="arrival"/>Arrival
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="feature" value="hacksaw"/>Hacksaw Ridge
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="feature" value="hellor"/>Hell or Highwater
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="feature" value="figures"/>Hidden Figures
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="feature" value="lalaland"/>La la land
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="feature" value="Lion"/>Lion
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="feature" value="manchester"/>Manchester by the Sea
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="feature" value="moonlight"/>Moonlight
+        </label>
+        <br />
+        <br />
+        <p> Best Animated Feature</p>
+        <label>
+          <input type="radio" name="feature" value="kubo"/>Kubo and the two strings
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="feature" value="moana"/>Moana
+        </label>  
+        <br />
+        <label>
+          <input type="radio" name="feature" value="redturtle"/>The red turtle
+        </label>  
+        <br />
+        <label>
+          <input type="radio" name="feature" value="zootopia"/>Zootopia
+        </label>  
+        <br />
+        <label>
+          <input type="radio" name="feature" value="succhini"/>My life as a succhini
+        </label>
+        <br />
+        <br />
+        <p> Best Documentary Feature</p>
+        <label>
+          <input type="radio" name="feature" value="13th"/>13th
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="feature" value="fireatsea"/>Fire at sea
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="feature" value="iamnot"/>I am not your negro
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="feature" value="animated"/>Life, Animated
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="feature" value="madein"/>O.J. Made in America
+        </label>
+        <br />
+        <br />
+      </fieldset>
+      <fieldset>
+        <legend>Personal information</legend>
+        <p> Name: 
+        <input type="text" name="username" size="15">
+        </p>
+        <p> Email:
+        <input type="email" name="email" size="15">
+        </p>
 
-    </fieldset>
-      <input type="submit" name="submit" value="Send now" />
-  </form>
+      </fieldset>
+      <div id="submit-btn">
+        <input type="submit" name="submit" value="Send now" />
+      </div>
+    </form>
+  </main>
 </body>
 </html>
