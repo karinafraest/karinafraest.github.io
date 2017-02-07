@@ -1,0 +1,66 @@
+*{
+  margin:0px;
+}
+
+header{
+    background-color:black;
+    background-image: url("images/oscarsgold.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:right;
+    height: 200px;
+  }
+
+#top{
+  color: white;
+  position: relative;
+  top: 60%;
+  left: 20px;
+  font-size: 50px;
+}
+
+nav{
+  margin-left: 10px;
+  display:inline-block;
+}
+
+ul{
+  margin: 20px 0px;
+
+}
+
+nav ul li{
+  display: inline;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: Arial, sans-serif;
+  font-size:1.5em;
+}
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+}
+
+.main {
+  margin: 10px 20px;
+}
+
+img{
+  width: 200px;
+  height: 300px;
+}
+
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+figure{
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+#animated{
+  background-color: rgba(153,204,255,0.5);
+}
