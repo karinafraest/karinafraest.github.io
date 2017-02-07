@@ -1,7 +1,7 @@
-*{
+* {
   margin:0px;
 }
-
+/* HEADER*/
 header{
     background-color:black;
     background-image: url("images/oscarsgold.jpg");
@@ -18,7 +18,7 @@ header{
   left: 20px;
   font-size: 50px;
 }
-
+/* NAVIGATION BAR */
 nav{
   margin-left: 10px;
   display:inline-block;
@@ -41,8 +41,13 @@ nav ul li a{
   color: black;
   text-decoration: none;
 }
+nav ul li a: hover{
+  color: gold;
+  text-decoration: none;
+}
 
-.main {
+/* FEATURE SECTION */
+section {
   margin: 10px 20px;
 }
 
@@ -61,6 +66,7 @@ figure{
   margin-bottom: 30px;
 }
 
+/*ANIMATED SECTION*/
 #animated{
   background-color: rgba(153,204,255,0.5);
 }
