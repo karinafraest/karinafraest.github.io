@@ -11,6 +11,10 @@ header{
     height: 200px;
   }
 
+h1{
+  font-family: 'Sansita', sans-serif;
+}
+
 #top{
   color: white;
   position: relative;
@@ -37,19 +41,33 @@ nav ul li{
   font-size:1.5em;
 }
 
-nav ul li a{
+nav a{
   color: black;
   text-decoration: none;
 }
-nav ul li a: hover{
+nav a:hover {
   color: gold;
   text-decoration: none;
 }
 
-/* FEATURE SECTION */
-section {
-  margin: 10px 20px;
+main{
+  padding:0px 20px;
+  font-family: 'Roboto', sans-serif;
 }
+
+main h1{
+  text-align:center;
+}
+
+section {
+  padding: 20px;
+}
+
+section h2{
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* FEATURE SECTION */
 
 img{
   width: 200px;
@@ -69,4 +87,68 @@ figure{
 /*ANIMATED SECTION*/
 #animated{
   background-color: rgba(153,204,255,0.5);
+}
+
+/*DOCUMENTARY SECTION */
+
+/*-------------vote.html--------------*/
+
+/*FORM*/
+legend{
+  font-size: 1.5em;
+}
+
+fieldset{
+  padding: 20px;
+}
+
+form p{
+  font-size: 1.25em;
+}
+
+#submit-btn{
+  text-align:center;
+}
+input[type=submit] {
+  margin: 20px 0px;
+  font-size: 1.25em;
+  background: gold;
+  border-radius: 5px;
+}
+
+footer{
+  text-align: center;
+  background-color: #bfbfbf;
+}
+
+footer p{
+  margin: 0px;
+  padding: 10px 0px;
+}
+/*---------------success.html----------*/
+/*table*/
+
+#success a {
+  text-decoration: none;
+  color: gold;
+}
+
+#success a:hover{
+  text-decoration: none;
+  color: gold;
+  font-size: 1.1em;
+}
+#success a:visited {
+  color: #4d3d00;
+}
+table{
+  width: 400px;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid gold;
+}
+
+th{
+
 }
