@@ -1,15 +1,15 @@
 /*GENERAL*/
 * {
-  margin:0px;
+  margin:0%;
 }
 body{
-  font-size: 16px;
+  font-size: 1em;
+  min-width: 326px;
 }
 
 h1{
   font-family: 'Sansita', sans-serif;
 }
-
 
 /* HEADER*/
 header{
@@ -18,31 +18,37 @@ header{
     background-size:contain;
     background-repeat:no-repeat;
     background-position:right;
-    height: 200px;
+    /*fluid*/
+    overflow:hidden;
   }
 
 #top{
   color: white;
   position: relative;
+  /*fluid*/
   top: 60%;
-  left: 20px;
-  font-size: 50px;
+  font-size: 3em;
+    /*change padding to give space to background image*/
+  padding: 5%;
 }
+
+
 /* NAVIGATION BAR */
 nav{
-  margin-left: 10px;
   display:inline-block;
+  width: 80%;
+  text-align: center;
 }
 
 ul{
-  margin: 20px 0px;
+  margin: 1% 0%;
 
 }
 /*NAV*/
 nav ul li{
   display: inline;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 2%;
+  margin-right: 2%;
   font-family: Arial, sans-serif;
   font-size:1.5em;
 }
@@ -56,11 +62,10 @@ nav a:hover {
   text-decoration: none;
 }
 
-/*Nav query*/
-
 /*Main*/
 main{
-  padding:0px 20px;
+  padding:0% 2%;
+  max-width: 1200px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -69,14 +74,19 @@ main h1{
 }
 
 section {
-  padding: 20px;
+  padding: 3%;
 }
 
 section h2{
-  margin-bottom: 10px;
+  margin-bottom: 2%;
   text-align: center;
 }
 /* FEATURE SECTION */
+figure{
+  display: inline-block;
+  margin-right: 2%;
+  margin-bottom: 3%;
+}
 
 img{
   width: 200px;
@@ -87,11 +97,7 @@ img:hover {
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
-figure{
-  display: inline-block;
-  margin-right: 10px;
-  margin-bottom: 30px;
-}
+
 
 /*ANIMATED SECTION*/
 #animated{
@@ -169,4 +175,47 @@ th, td {
 
 th{
   font-size: 1.25em;
+}
+
+/*Nav query*/
+@media only screen and (max-width: 985px) {
+  nav{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+  }
+
+  nav ul li{
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size:1.5em;
+    margin: 2% 0%;
+  }
+}
+
+@media only screen and (max-width: 899px){
+  #top{
+    color: white;
+    font-size: 2em;
+      /*change padding to give space to background image*/
+    padding: 5%;
+  }
+}
+
+@media only screen and (max-width: 490px){
+  section {
+    padding: 3%;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  figure{
+    display: block;
+    margin: 5% 0% 2% 0%;
+  }
+
+  img{
+    width: 200px;
+    height: 300px;
+  }
 }
